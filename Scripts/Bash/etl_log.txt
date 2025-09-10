@@ -1,0 +1,15 @@
+--- ETL Process Started at Wed Sep 10 10:45:05 SAST 2025 ---
+Starting Extraction step...
+Created directory: raw
+Downloading CSV file from https://raw.githubusercontent.com/Ayoola-d/Data-Engineering-Projects/main/etl-pipeline/Country-GDP-2023.csv...
+SUCCESS: File downloaded and saved to raw/Country-GDP-2023.csv
+Extraction complete.
+Starting Transformation step...
+Created directory: Transformed
+SUCCESS: File transformed and saved to Transformed/2023_year_finance.csv
+Transformation complete.
+Starting Loading step...
+Created directory: Gold
+SUCCESS: File loaded into the Gold directory.
+Loading complete.
+--- ETL Process Finished at Wed Sep 10 10:45:08 SAST 2025 ---
